@@ -24,6 +24,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/moooossee/moose.git
-        tag: v0.2.1
-        commit: ebc94a22f6e5fa1328f1553ef67711e91c467eb6
+        tag: v0.3.0
+        commit: 4156658a291ffb9afd0c8bed5fc9ea2aa298486a
       - cargo-sources.json
