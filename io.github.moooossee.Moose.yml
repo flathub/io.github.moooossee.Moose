@@ -12,6 +12,7 @@ build-options:
 finish-args:
   - --share=network
   - --share=ipc
+  - --device=dri
   - --socket=fallback-x11
   - --socket=wayland
 modules:
@@ -24,6 +25,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/moooossee/moose.git
-        tag: v0.4.2
-        commit: 4a8e3ec9791d97012cc02ab2314cf600759e1107
+        tag: v0.4.3
+        commit: 909b7b70c3eebf80d44256b82aa60b4720f9ed26
       - cargo-sources.json
