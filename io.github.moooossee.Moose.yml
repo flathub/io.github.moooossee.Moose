@@ -1,3 +1,4 @@
+# retry build
 app-id: io.github.moooossee.Moose
 runtime: org.gnome.Platform
 runtime-version: '51'
